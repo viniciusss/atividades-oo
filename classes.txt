@@ -1,0 +1,36 @@
+
+Classes:
+  * Pessoa(abstrata) - Atributos: nome, endereco - ok
+    * Pessoa Física: data nascimento, cpf, identidade; - ok
+    * Pessoa Jurídica: cnpj, inscricao estadual, diretor; - ok
+  * Conta(abstrata) - número, agência, saldo
+    * Conta salário
+    * Conta corrente - limite cheque especial, valor de emprestimo pré aprovado
+  * Funcionário
+
+Funções:
+* Criação de pessoa física; - ok
+* Criação de pessoa jurídica; - ok
+* Visualizar uma pessoa; - Ok
+* Contratação de pessoa física por uma pessoa jurídica; - ok
+* Abrir conta salário; - ok
+* Abrir conta corrente para empresa - ok
+* Realizar saque; - ok
+* Realizar deposóiwoihfw - ok
+* Mostrar valor do saldo; - Ok
+* Mostrar valor limite; - Ok
+
+
+# Contratação
+* Criar uma conta salário - ok
+* Vincular conta salário a pessoa física - ok
+* Adicionar pessoa física ao vetor de funcionários - ok
+
+# Saque
+Conta salário: O valor do saque não pode ser maior que saldo
+Conta corrente: O valor do saque não pode ser maior que o saldo + limite cheque especial
+  Primeiro devemos consumir o saldo da conta corrente, caso o saldo esteja zerado o valor excedido é descontado do limite.
+
+# Deposito
+Conta salário: O valor do depósito deve acrescentar ao saldo;
+Conta corrente: O valor do depósito deve primeiro quitar o limite do que especial
